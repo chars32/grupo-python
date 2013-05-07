@@ -16,7 +16,7 @@ def main():
 	
 def agregar(pregunta):
 	global cont
-	while pregunta == "s":
+	if pregunta == "s":
 		nombre = raw_input("Dame tu nombre: ")
 		nombres.append(nombre)
 		telefono = raw_input("Dame tu telefono: ")
